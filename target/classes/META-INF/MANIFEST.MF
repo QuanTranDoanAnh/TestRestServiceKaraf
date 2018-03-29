@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1522322683714
+Build-Jdk: 1.8.0_131
+Built-By: QuanTDA1
+Bundle-Blueprint: OSGI-INF/blueprint/my-service.xml
+Bundle-Description: TestRestServiceKaraf OSGi blueprint bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: TestRestServiceKaraf Blueprint Bundle
+Bundle-SymbolicName: TestRestServiceKaraf
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: RestFull_Webservice_Karaf.TestRestServiceKaraf;version="
+ 0.0.1.SNAPSHOT";uses:="javax.ws.rs,javax.ws.rs.core,javax.xml.bind.anno
+ tation"
+Import-Package: javax.ws.rs;version="[2.1,3)",javax.ws.rs.core;version="
+ [2.1,3)",javax.xml.bind.annotation,org.osgi.service.blueprint;version="
+ [1.0.0,2.0.0)",org.slf4j;version="[1.7,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.3.0.201609221906
